@@ -136,6 +136,7 @@ venv.bak/
 lc-academy-env/
 
 .langgraph_api
+.devcontainer/
 
 # Spyder project settings
 .spyderproject
