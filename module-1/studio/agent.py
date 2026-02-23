@@ -58,4 +58,4 @@ builder.add_conditional_edges(
 builder.add_edge("tools", "assistant")
 
 # Compile graph
-graph = builder.compile()
+graph = builder.compile() # no need to add MemoryCheckpointer as Langgraph has own persistence layer which is Postgres
